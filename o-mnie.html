@@ -7,7 +7,6 @@
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  </style>
   <style>
     .gallery-section {
       text-align: center;
@@ -64,54 +63,32 @@
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
   <style>
-  .logo-text {
+  .glass-box {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    color: #ffffff;
     font-family: 'Orbitron', sans-serif;
-    font-size: 48px;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+
+  .neon-border {
+    border: 2px solid #7efcff;
+    box-shadow: 0 0 10px #7efcff, 0 0 20px #00f0ff;
+  }
+
+  .glass-box h2 {
     color: #7efcff;
     text-shadow: 0 0 8px #7efcff, 0 0 16px #00f0ff;
-    text-align: center;
-    margin: 20px 0;
-    letter-spacing: 2px;
-    animation: glow 2s ease-in-out infinite alternate;
+    font-weight: 600;
+    margin-bottom: 15px;
   }
 
-  .logo-text span {
-    color: #ffffff;
-    text-shadow: 0 0 8px #ffffff, 0 0 16px #aaa;
-  }
-
-  @keyframes glow {
-    from {
-      text-shadow: 0 0 5px #7efcff, 0 0 10px #00f0ff;
-    }
-    to {
-      text-shadow: 0 0 15px #7efcff, 0 0 30px #00f0ff;
-    }
-  }
-  </style>
-  <style>
-  .cta-button {
-    display: inline-block;
-    margin: 5px;
-    padding: 12px 24px;
-    background-color: transparent;
-    color: #7efcff;
-    font-weight: bold;
-    text-decoration: none;
-    border: 2px solid #7efcff;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-
-  .cta-button:hover {
-    background-color: #7efcff;
-    color: #000;
-  }
-  </style>
-  <style>
-  .banner-header {
-    background-color: transparent;
-    padding: 20px 0;
+  .glass-box p {
+    font-size: 1.1rem;
+    line-height: 1.6;
   }
   </style>
 </head>
@@ -121,8 +98,8 @@
       <h1 class="logo-text">DarkPrompt <span>Studio</span></h1>
       <nav>
         <ul class="nav-menu">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="o-mnie.html">O nas</a></li>
+          <li><a href="index.html" class="active">Strona Główna</a></li>
+          <li><a href="o-mnie.html">O mnie</a></li>
           <li><a href="projekty.html">Projekty</a></li>
           <li><a href="uslugi.html">Usługi</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
@@ -131,45 +108,13 @@
     </div>
   </header>
 
-
-  <section class="container">
-    <h2>Kim jesteśmy?</h2>
-    <p>DarkPrompt Studio to kreatywny zespół specjalistów od nowoczesnych technologii, sztucznej inteligencji oraz projektowania interfejsów użytkownika. Naszym celem jest tworzenie unikalnych doświadczeń cyfrowych, które łączą estetykę z funkcjonalnością.</p>
-
-    <h2>Dlaczego my?</h2>
-    <p>Wyróżnia nas pasja do tworzenia. Niezależnie czy projektujemy aplikacje, gry, strony internetowe czy systemy AI – zawsze stawiamy na jakość, nowoczesność i dopasowanie do indywidualnych potrzeb klienta.</p>
-
-    <h2>Nasze wartości</h2>
-    <ul style="list-style: none; padding: 0;">
-      <li>💡 Innowacyjność</li>
-      <li>🎯 Skoncentrowanie na użytkowniku</li>
-      <li>🧠 Wykorzystanie AI</li>
-      <li>🎨 Kreatywność</li>
-    </ul>
-  </section>
-
-  <section class="container" style="text-align: center;">
-    <h2>Gotowy na współpracę?</h2>
-    <p>Skontaktuj się z nami i wspólnie stwórzmy coś wyjątkowego.</p>
-    <a href="kontakt.html" class="cta-button">Napisz do nas</a>
-    <div style="margin-top: 20px;">
-      <a href="https://www.fiverr.com/maloblocki28" class="cta-button" target="_blank">
-        <img src="https://cdn.worldvectorlogo.com/logos/fiverr-1.svg" alt="Fiverr" style="height: 20px; vertical-align: middle; margin-right: 8px;">
-        Fiverr
-      </a>
-      <a href="https://www.upwork.com/freelancers/~01e4775736a8c45a80?mp_source=share" class="cta-button" target="_blank">
-        <img src="https://cdn.worldvectorlogo.com/logos/upwork.svg" alt="Upwork" style="height: 20px; vertical-align: middle; margin-right: 8px;">
-        Upwork
-      </a>
-      <a href="https://github.com/twoj_profil" class="cta-button" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="GitHub" style="height: 20px; vertical-align: middle; margin-right: 8px;">
-        GitHub
-      </a>
-    </div>
-  </section>
+  <main class="glass-box neon-border">
+    <h2>O mnie</h2>
+    <p>Nazywam się Marcin i jestem specjalistą od nowoczesnych technologii, sztucznej inteligencji oraz projektowania interfejsów użytkownika. Moim celem jest tworzenie unikalnych doświadczeń cyfrowych, które łączą estetykę z funkcjonalnością. Wyróżnia mnie pasja do tworzenia. Niezależnie czy projektuję aplikacje, gry, strony internetowe czy systemy AI – zawsze stawiam na jakość, nowoczesność i dopasowanie do indywidualnych potrzeb klienta.</p>
+  </main>
 
   <footer>
-    <p>&copy; 2025 DarkPrompt Studio – Wszystkie prawa zastrzeżone</p>
+    <p>&copy; 2025 DarkPrompt Studio – Wszystkie prawa zastrzeżone. Stworzone przez Marcina.</p>
   </footer>
 
   <script>
