@@ -1,0 +1,44 @@
+{
+  "pl": {
+    "home": {
+      "title": "Witamy w DarkPrompt Studio",
+      "subtitle": "Tworzymy nowoczesne strony internetowe, unikalne interfejsy oraz kreatywne rozwiązania z wykorzystaniem sztucznej inteligencji."
+    },
+    "features": {
+      "title": "Dlaczego warto nas wybrać?",
+      "feature1": {
+        "title": "Nowoczesne podejście",
+        "desc": "Łączymy kreatywność z technologią – zawsze na czasie z trendami."
+      },
+      "feature2": {
+        "title": "Indywidualne podejście",
+        "desc": "Tworzymy rozwiązania skrojone pod konkretne potrzeby i wizje klientów."
+      },
+      "feature3": {
+        "title": "Kompleksowa realizacja",
+        "desc": "Od pomysłu, przez projekt, po wdrożenie i wsparcie – wszystko w jednym miejscu."
+      }
+    }
+  },
+  "en": {
+    "home": {
+      "title": "Welcome to DarkPrompt Studio",
+      "subtitle": "We create modern websites, unique interfaces, and creative solutions leveraging artificial intelligence."
+    },
+    "features": {
+      "title": "Why choose us?",
+      "feature1": {
+        "title": "Modern approach",
+        "desc": "We combine creativity with technology – always up to date with trends."
+      },
+      "feature2": {
+        "title": "Individual approach",
+        "desc": "We create solutions tailored to specific client needs and visions."
+      },
+      "feature3": {
+        "title": "Comprehensive execution",
+        "desc": "From concept, through design, to implementation and support – all in one place."
+      }
+    }
+  }
+}

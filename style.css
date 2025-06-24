@@ -116,12 +116,7 @@ img {
   border-radius: 4px;
 }
 
-.projekty-galeria {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
+/* .projekty-galeria rules refactored below */
 
 .projekty-galeria img {
   max-width: 100px;
@@ -129,7 +124,10 @@ img {
 }
 
 .projekty-galeria {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
+  gap: 10px;
 }
 
 .projekt-box {
